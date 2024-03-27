@@ -42,6 +42,13 @@ function receberporcentagem(evento) {
         }
     })
 
-    porcentagem = Number(evento.target.value)/100
+    if(evento.tagert.value !== ""){
+        porcentagem = Number(evento.target.value)/100
+    }else{
+        porcentagem = 0
+    }
     
 }
+
+const gorjetainput = document.querySelector("#outra")
+gorjetainput.addEventListener("input",receberporcentagembotao)
