@@ -128,14 +128,20 @@ main {
 }
 
  .pessoas  #erro-div{
+    font-weight: 700;
+    padding: 0.6000rem;
     outline: 2px solid  var(--danger);
+    border-radius: 0.9000rem
 }
 
 .pessoas #erro {
+    padding: 0.9000rem;
+    border-radius: 0.9000rem;
     font-size: 0.75rem;
     color: var(--danger);
     font-weight: 700;
     display: none;
+   
 }
 
 .resultados {
